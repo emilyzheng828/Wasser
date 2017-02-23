@@ -1,4 +1,4 @@
-package emilyzheng828.github.io.wasser;
+package io.github.emilyzheng828.wasser;
 
 import org.junit.Test;
 

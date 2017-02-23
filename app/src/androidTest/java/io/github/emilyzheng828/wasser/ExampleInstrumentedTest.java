@@ -1,4 +1,4 @@
-package emilyzheng828.github.io.wasser;
+package io.github.emilyzheng828.wasser;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

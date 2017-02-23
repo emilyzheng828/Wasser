@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "emilyzheng828.github.io.wasser"
+        applicationId "io.github.emilyzheng828.wasser"
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
