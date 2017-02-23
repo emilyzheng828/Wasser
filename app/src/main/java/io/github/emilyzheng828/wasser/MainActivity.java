@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView imgCoo = (ImageView)findViewById(R.id.imgCoo);
+        final TextView Yelling = (TextView)findViewById(R.id.drink);
         imgCoo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
                 }
                 toast = Toast.makeText(MainActivity.this, "Thirsty!", Toast.LENGTH_SHORT);
                 toast.show();
+                Yelling.setVisibility(View.VISIBLE);
+
+
+
             }
         });
     }

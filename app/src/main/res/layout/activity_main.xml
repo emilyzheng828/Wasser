@@ -23,10 +23,12 @@
 
 
     <TextView
+        android:id="@+id/drink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imgCoo"
-        android:text="Blue water from the Alps"
+        android:layout_alignTop="@id/imgCoo"
+        android:text="Trinken Wasser!"
+        android:visibility="gone"
 
         />
 </RelativeLayout>
